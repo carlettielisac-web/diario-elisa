@@ -1,0 +1,11 @@
+{
+  "name": "Diario Elisa",
+  "short_name": "Diario Elisa",
+  "lang": "it-IT",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f6fa",
+  "theme_color": "#111827",
+  "description": "Diario personale di allenamento, calorie, macro e pasti."
+}
