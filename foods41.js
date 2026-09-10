@@ -1,0 +1,1 @@
+window.DIARIO41_FOODS={};
