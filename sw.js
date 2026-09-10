@@ -1,5 +1,5 @@
-const CACHE = 'diario-elisa-v3-1';
-const APP = ['./', './index.html', './manifest.json'];
+const CACHE = 'diario-elisa-v4-1';
+const APP = ['./', './index.html', './manifest.json', './foods41.js'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(APP)).then(() => self.skipWaiting()));
 });
