@@ -1,4 +1,4 @@
-const CACHE='diario-elisa-v4-3';
+const CACHE='diario-elisa-v4-4';
 const APP=['./','./index.html','./manifest.json','./foods41.js'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(c=>c.addAll(APP)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});
